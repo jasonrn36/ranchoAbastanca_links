@@ -6,10 +6,23 @@
 
 /* Imagem de perfil */
 .profile-image img {
+    position: relative;
+    margin-left: 30%;
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Deixa a imagem redonda */
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    object-fit: cover;       /* ajusta o corte para preencher */
+    object-position: top;    /* controla a parte visível (top, center, etc.) */
+    box-shadow: #5a3094 1px 1px 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #0a0760;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 1px 2px #00a2ff;
 }
 
 /* Container dos botões */
