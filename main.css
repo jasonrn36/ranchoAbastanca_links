@@ -1,0 +1,35 @@
+/* Container principal */
+.container {
+    max-width: 600px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/* Imagem de perfil */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    margin-bottom: 20px;
+}
+
+/* Container dos botões */
+.links-container {
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente */
+    gap: 15px; /* Espaço entre os botões */
+}
+
+/* Botões dos links */
+.link-button {
+    background-color: #5a3094; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    padding: 15px 25px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave */
+    font-size: 1.1em;
+}
+
+.link-button:hover {
+    background-color: #7c4fc5; /* Cor de fundo ao passar o mouse */
+}
