@@ -58,7 +58,6 @@ h3 {
     flex-direction: column; /* Empilha os botões verticalmente */
     gap: 15px; /* Espaço entre os botões */
     align-items: center; /* centraliza os botões */
-    background-color: red;
 
 }
 
