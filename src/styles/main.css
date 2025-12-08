@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
 
     background-color: #fafafa;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 
@@ -91,9 +91,18 @@ h3 {
 /* Rodapé */
 .footer {
     margin-top: 30px;
+    margin-bottom: -10px;
     padding: 15px 0;
     width: 100%;
     text-align: center;
     background-color: #f1f1f1;
     border-top: 1px solid #ccc;
+        border-radius: 15px; 
+}
+
+.footer a {
+    color: #000000;
+    font-size: 1.0em;
+    text-decoration:dotted underline #F97316;
+
 }
