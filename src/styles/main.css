@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #00a2ff, #5a3094);
+    background: linear-gradient(135deg, #0D1B2A, #5a3094);
 }
 
 /* Container principal */
@@ -19,7 +19,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
 
-    background-color: #fff;
+    background-color: #fafafa;
     border-radius: 50px;
 }
 
@@ -39,16 +39,16 @@ body {
     margin-bottom: 15px;
     object-fit: cover;       
     object-position: top; 
-    box-shadow: #ffb700 1px 1px 20px;
+    box-shadow: #F97316 1px 1px 20px;
 }
 
 /* Título */
 h3 {
     text-align: center;
-    color: #0a0760;
+    color: #262626;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
-    text-shadow: 1px 1px 2px #00a2ff;
+    text-shadow: 1px 1px 2px #ffa200;
 }
 
 /* Container dos botões */
@@ -65,7 +65,7 @@ h3 {
 /* Botões dos links */
 .link-button {
     width: 100%;
-    background-color: #ff9500;
+    background-color: #F97316;
     border-radius: 15px;
 
     font-weight: bold;
