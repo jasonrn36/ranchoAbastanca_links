@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #787878; 
+}
+
 /* Container principal */
 .container {
     display: flex;         
@@ -6,17 +14,27 @@
     align-items: center;      /* centraliza horizontalmente */
     min-height: 100vh;        /* ocupa toda a altura da tela */
     max-width: 600px; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+.profile-image {
+    background-color: red;
+    align-items: center;
 }
 
 /* Imagem de perfil */
 .profile-image img {
+    display: block;
+    position: relative;
+    margin: 0 auto 20px auto;
     width: 150px;
     height: 150px;
-    border-radius: 50%; 
+    border-radius: 25%;
     margin-bottom: 15px;
     object-fit: cover;       
-    object-position: top;    
+    object-position: top; 
     box-shadow: #5a3094 1px 1px 20px;
 }
 
