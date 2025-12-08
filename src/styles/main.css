@@ -16,7 +16,7 @@ body {
     justify-content: center;  /* centraliza verticalmente */
     align-items: center;      /* centraliza horizontalmente */
     min-height: 100vh;        /* ocupa toda a altura da tela */
-    max-width: 600px; 
+    max-width: 600px;
     margin: 0 auto;
 
     background-color: #fff;
