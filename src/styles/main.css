@@ -39,7 +39,7 @@ body {
     margin-bottom: 15px;
     object-fit: cover;       
     object-position: top; 
-    box-shadow: #5a3094 1px 1px 20px;
+    box-shadow: #ffb700 1px 1px 20px;
 }
 
 /* Título */
@@ -65,17 +65,19 @@ h3 {
 /* Botões dos links */
 .link-button {
     width: 100%;
-    background-color: #5a3094; 
-    color: #fff; 
-    padding: 15px 25px; 
+    background-color: #ff9500;
+    border-radius: 15px;
+
+    font-weight: bold;
+    color: #000000; 
+    padding: 5px 5px; 
     text-decoration: none; 
-    border-radius: 15px; 
     transition: background-color 0.3s ease; 
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .link-button img {
-    height: 70px;
+    height: 120px;
     width: auto;
     margin-right: 10px;
     vertical-align: middle;
@@ -83,7 +85,7 @@ h3 {
 }
 
 .link-button:hover {
-    background-color: #7c4fc5; 
+    background-color: #ffea4c; 
 }
 
 /* Rodapé */
