@@ -26,6 +26,7 @@ body {
 
 .profile-image {
     align-items: center;
+    margin-top: 24px;
 }
 
 /* Imagem de perfil */
@@ -45,6 +46,8 @@ body {
 /* Título */
 h3 {
     text-align: center;
+    font-size: 1.6em;
+
     color: #262626;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
@@ -53,11 +56,9 @@ h3 {
 
 /* Container dos botões */
 .produtos {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
 
 
 }
@@ -67,7 +68,7 @@ h3 {
     align-items: center;
     gap: 15px;
     align-items: flex-start;
-    background-color: #5a3094;
+    background-color: #f14000;
     padding: 8px;
 
 }
@@ -75,6 +76,7 @@ h3 {
 .imagem-produto {
     width: 100px;
     height: auto;
+    border-color: 2px solid #e3e3e3;
 }
 
 .oferta {
