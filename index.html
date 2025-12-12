@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/styles/main.css">
 </head>
 <body>
+    <div class="idioma" id="google_translate_element"></div>
 <div class="container">
         <!-- First secction image to perfil (opcional) -->
         <div class="profile-image">
@@ -186,7 +187,6 @@
                 <span class="oferta">
                 <a href="https://www.youtube.com/watch?v=HXvTbXxSMBM&list=PLtOh-fKbRrjESHyOafnKpkJ4lrIsVJnhh" target="_blank" class="link-button">
                     YouTube Rancho Abastança
-                    Enjoy
                 </a>
                 </span>
         </div>
@@ -198,7 +198,22 @@
         </div>
 </div>
 
+
+
     <script src="./src/js/main.js"> </script>
+    <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'pt',        // idioma original da página
+        includedLanguages: 'en,es', // idiomas permitidos (ex: inglês e espanhol)
+        autoDisplay: true          // força tradução automática
+      },
+      'google_translate_element'
+    );
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
