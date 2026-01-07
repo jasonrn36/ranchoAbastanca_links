@@ -26,7 +26,11 @@ body {
     min-height: 100vh;        /* ocupa toda a altura da tela */
     max-width: 600px;
     margin: 0 auto;
+<<<<<<< HEAD
     background-color: #f2f2f2;
+=======
+    background-color: #dcdcdc;
+>>>>>>> 96347f95e613d8ada6df2175524778a4c68ec897
     border-radius: 15px;
 }
 
@@ -47,7 +51,7 @@ body {
     margin-bottom: 15px;
     object-fit: cover;       
     object-position: top; 
-    box-shadow: #41a901 1px 1px 20px;
+    box-shadow: #17015a 1px 1px 20px;
 }
 
 /* Título */
